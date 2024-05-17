@@ -1,7 +1,7 @@
 function monotonic_array(a) {
-  array_length = a.length;
-  first_number = a[0];
-  last_number = a[array_length - 1];
+  const array_length = a.length;
+  const first_number = a[0];
+  const last_number = a[array_length - 1];
 
   if (first_number < last_number) {
     for (let i = 0; i < array_length - 1; i++) {
