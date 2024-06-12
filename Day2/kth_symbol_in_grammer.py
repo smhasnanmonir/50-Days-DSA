@@ -13,5 +13,10 @@ print(kth_symbol(4,7))
 print(kth_symbol(4,8))
 print(kth_symbol(4,9))
 
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+        self.prev = None
 
-    
+
